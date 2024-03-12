@@ -1,0 +1,7 @@
+temperature.innerHTML=response.temp
+  cloud_pct.innerHTML=response.cloud_pct
+  max_temp.innerHTML=response.max_temp
+  min_temp.innerHTML=response.min_temp
+  humidity.innerHTML=response.humidity
+  wind_speed.innerHTML=response.wind_speed
+  wind_degrees.innerHTML=response.wind_degrees

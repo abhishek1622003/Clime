@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clime</title>
+    <link href="logo.png" type="x-icon" rel="shortcut icon" >
+    <link href="clime.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <div id="navbox">
+        <!-- <i class="fa-solid fa-earth-americas" id="icon1"></i> -->
+        <i class='bx bx-sun' id="icon1"></i>
+        <h4 id="name">Clime</h4>
+        <input type="search" id="sBox1" placeholder="Enter City Name">
+        <div  id="icon2">
+            <i class='bx bx-search-alt-2' id="goFind" style="color: aliceblue;"></i>
+        </div>
+    </div>
+    <div id="container">
+        <h2 id="Wfor">Weather for <span id="CityName"></span></h1>
+        <div id="temp">
+            <h3 id="temperature"></h3>
+            <p>o</p>
+        </div>
+        <div id="HL">
+            <p>H : <span id="max_temp"></span><sup>o</sup> |  L : <span id="min_temp"></span><sup>o</sup></p>
+        </div>
+        <div id="details">
+            <div id="prec">
+                <i class='bx bx-droplet' id="cloud"></i>
+                <p>Humidity</p><br>
+                <p id="humidity"></p>
+            </div>
+            <div id="Wind">
+                <i class='bx bxl-tailwind-css' id="air"></i>
+                <p>WindSpeed</p><br>
+                <p id="wind_speed"></p>
+            </div>
+            
+        </div>
+
+
+
+    </div>
+
+    
+    <script src="clime.js"></script>
+    <script src="https://kit.fontawesome.com/5ca25c0be0.js" crossorigin="anonymous"></script>
+</body>
+</html>
